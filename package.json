@@ -1,0 +1,39 @@
+{
+  "name": "rps-works.github.io",
+  "type": "module",
+  "version": "0.0.2",
+  "packageManager": "pnpm@10.32.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "eslint": "eslint 'src/**/*.{js,astro}'",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/sitemap": "^3.6.0",
+    "@iconify-json/ri": "^1.2.6",
+    "astro": "^5.16.4",
+    "astro-icon": "^1.1.5",
+    "astro-robots-txt": "^1.0.0",
+    "autoprefixer": "^10.4.22",
+    "motion": "^12.23.25"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.48.1",
+    "@unocss/astro": "^66.5.10",
+    "@unocss/postcss": "^66.5.10",
+    "@unocss/preset-uno": "^66.5.10",
+    "@unocss/reset": "^66.5.10",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "motion": "^12.23.25",
+    "typescript": "^5.9.3",
+    "unocss": "^66.5.10"
+  }
+}
